@@ -22,6 +22,9 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModBlocks.CHARTREUSE_WOOL.get()))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.CHARTREUSE_WOOL);
+                        pOutput.accept(ModBlocks.SPRING_GREEN_WOOL);
+                        pOutput.accept(ModBlocks.ROSE_WOOL);
+                        pOutput.accept(ModBlocks.ULTRAMARINE_WOOL);
                     }).build());
 
     public static void register(IEventBus eventBus) {
